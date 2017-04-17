@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         
         bottomRight = UIView()
         bottomRight.translatesAutoresizingMaskIntoConstraints = false
-        bottomRight.backgroundColor = UIColor.yellow
+        bottomRight.backgroundColor = UIColor.red
         view.addSubview(bottomRight)
         
     }
