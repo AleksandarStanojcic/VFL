@@ -26,12 +26,12 @@ class ViewController: UIViewController {
         
         upperLeft = UIView()
         upperLeft.translatesAutoresizingMaskIntoConstraints = false
-        upperLeft.backgroundColor = UIColor.blue
+        upperLeft.backgroundColor = UIColor.red
         view.addSubview(upperLeft)
         
         middle = UIView()
         middle.translatesAutoresizingMaskIntoConstraints = false
-        middle.backgroundColor = UIColor.red
+        middle.backgroundColor = UIColor.blue
         view.addSubview(middle)
         
         bottomRight = UIView()
