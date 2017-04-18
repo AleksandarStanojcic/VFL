@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         middle.translatesAutoresizingMaskIntoConstraints = false
         middle.backgroundColor = UIColor.green
         view.addSubview(middle)
+        print("Second commit test1")
 
         bottomRight = UIView()
         bottomRight.translatesAutoresizingMaskIntoConstraints = false
