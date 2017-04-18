@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     func constrainViews() {
         
         let horizontalGap = 6
-        let verticalGap = 22
+        let verticalGap = 21
         let cubeSize = 51
         
         var constraints: [NSLayoutConstraint] = []
