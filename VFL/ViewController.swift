@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         bottomRight.translatesAutoresizingMaskIntoConstraints = false
         bottomRight.backgroundColor = UIColor.red
         view.addSubview(bottomRight)
+        print("First Commit")
         
     }
     
