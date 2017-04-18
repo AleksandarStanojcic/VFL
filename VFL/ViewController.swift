@@ -28,13 +28,14 @@ class ViewController: UIViewController {
         upperLeft.translatesAutoresizingMaskIntoConstraints = false
         upperLeft.backgroundColor = UIColor.red
         view.addSubview(upperLeft)
+        print("Second Commit Test")
         
         middle = UIView()
         middle.translatesAutoresizingMaskIntoConstraints = false
         middle.backgroundColor = UIColor.green
         view.addSubview(middle)
-        print("Second Commit")
-        
+        print("First Commit Test")
+
         bottomRight = UIView()
         bottomRight.translatesAutoresizingMaskIntoConstraints = false
         bottomRight.backgroundColor = UIColor.yellow
