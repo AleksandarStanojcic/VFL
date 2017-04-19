@@ -34,8 +34,8 @@ class ViewController: UIViewController {
         middle.translatesAutoresizingMaskIntoConstraints = false
         middle.backgroundColor = UIColor.green
         view.addSubview(middle)
-        print("Second commit master")
-        
+        print("Third commit test")
+
         bottomRight = UIView()
         bottomRight.translatesAutoresizingMaskIntoConstraints = false
         bottomRight.backgroundColor = UIColor.yellow
@@ -45,9 +45,9 @@ class ViewController: UIViewController {
     
     func constrainViews() {
         
-        let horizontalGap = 7
-        let verticalGap = 22
-        let cubeSize = 51
+        let horizontalGap = 8
+        let verticalGap = 23
+        let cubeSize = 52
         
         var constraints: [NSLayoutConstraint] = []
         
