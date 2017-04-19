@@ -28,19 +28,16 @@ class ViewController: UIViewController {
         upperLeft.translatesAutoresizingMaskIntoConstraints = false
         upperLeft.backgroundColor = UIColor.red
         view.addSubview(upperLeft)
-        print("First commit test")
         
         middle = UIView()
         middle.translatesAutoresizingMaskIntoConstraints = false
         middle.backgroundColor = UIColor.green
         view.addSubview(middle)
-        print("Second commit master")
         
         bottomRight = UIView()
         bottomRight.translatesAutoresizingMaskIntoConstraints = false
         bottomRight.backgroundColor = UIColor.yellow
         view.addSubview(bottomRight)
-        print("First commit master")
     }
     
     func constrainViews() {
